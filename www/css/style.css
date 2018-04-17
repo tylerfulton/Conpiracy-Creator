@@ -1,0 +1,113 @@
+.km-material .km-content{
+    background: url(../imgs/ass2background.png);
+    background-size: cover;
+    color: white;
+}
+
+.km-widget {
+    background: #e2d1a6;
+}
+
+.km-header{
+    display: none;
+}
+#resultIMG{
+    width: 100%;
+    filter: blur(2px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.sticker{
+    width: 50%;
+}
+svg {
+    background: none;
+}
+#result {
+    background-color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 9;
+}
+#goToEditor, #goToGallery {
+    display: none;
+    width: 100%;
+    height: 75px;
+    font-size: 1.3em;
+    margin-bottom: 5%;
+}
+#cambtn{
+    font-size: 1.3em;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 5%;
+}
+.new {
+    width: 30%;
+}
+.draggable {
+    position: absolute;
+    z-index: 10;
+    width: 50;
+}
+/*
+#svgCanvas {
+    position: absolute;
+    z-index: 10;
+}
+*/
+#backBtn, #addBtn, #saveBtn {
+    position: absolute;
+    z-index: 10;
+}
+#addBtn {
+    right: 0px;
+}
+#saveBtn {
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+.km-material .km-button {
+    color: white;
+    background: #C1272D;
+}
+.activeBtn.km-material .activeBtn.km-button  {
+    color: grey;
+    background: white;
+}
+a.km-widget.km-button{
+    color: grey;
+    background: white; 
+    opacity: 0.6;
+}
+#homeContainer{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    top: 40%;
+}
+#stickerCanvas > svg {
+    display: none;
+}
+#h2canvas{
+    display: none;
+}
+#savedImages {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#credit {
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 100px #C1272D;
+}

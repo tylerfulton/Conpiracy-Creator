@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Conspiracy Creator</name>
+    <description>
+        This app allows you to capture the truth, enhance the truth by applying stickers then share your truth with the world.
+    </description>
+    <author email="tyler.fulton@uleth.ca" href="http://phonegap.com">
+        Tyler Fulton
+    </author>
+    <plugin name="cordova-plugin-camera" />
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="www/res/icon/icon.png" />
+</widget>
